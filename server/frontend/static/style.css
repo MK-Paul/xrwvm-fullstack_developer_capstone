@@ -58,7 +58,8 @@ img{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex:1
+  flex:1;
+  padding: 20px;
 }
 
 .form_panel {
@@ -124,5 +125,3 @@ img{
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
 }
-
-
