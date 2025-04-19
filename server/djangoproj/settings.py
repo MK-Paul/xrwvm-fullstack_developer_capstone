@@ -30,6 +30,10 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 CSRF_TRUSTED_ORIGINS = []
+# uncomment the following lines to allow access from the specified host
+# ALLOWED_HOSTS=['localhost','https://paulmk2143-8000.theianext-0-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai']
+# CSRF_TRUSTED_ORIGINS=['https://paulmk2143-8000.theianext-0-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai']
+
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [],
